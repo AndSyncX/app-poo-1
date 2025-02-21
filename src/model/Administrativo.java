@@ -1,4 +1,5 @@
 package model;
 
-public class Administrativo {
+public class Administrativo extends Persona {
+
 }
