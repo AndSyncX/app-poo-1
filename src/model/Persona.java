@@ -46,4 +46,15 @@ public class Persona {
     public void setEdad(Integer edad) {
         this.edad = edad;
     }
+
+    //Nuevo Método para polimorfismo
+
+    public boolean registrarAsistencia(
+            String codIdentificador,
+            String fechaAsistencia,
+            String horaAsistencia,
+            Boolean valorAsistencia
+    ){
+        return true;
+    }
 }
